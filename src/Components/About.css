@@ -1,0 +1,172 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: block;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#logo-div {
+  float: left;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-div .link-logo a {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#navbar-div {
+  float: left;
+  height: 100%;
+  border-bottom: 2px solid gray;
+}
+
+#navbar {
+  height: 100%;
+  display: flex;
+}
+
+#navbar div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar div .link-nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+#navbar div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #6284d2;
+  color: #6284d2;
+}
+
+#navbar div:active {
+  background-color: #6284d2;
+}
+
+main {
+  margin: 0 15%;
+}
+
+.contents-header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a29d9c;
+  opacity: 0.5;
+}
+
+.contents-header span {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.contents {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer {
+  margin: 0 20%;
+  width: 60%;
+}
+
+#footer-content {
+  padding: 2px;
+  width: 80%;
+}
+
+#border-contents {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#border-copyright {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer-nav {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#footer-nav tr {
+  width: 60%;
+}
+
+#footer-nav th {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+#footer-nav td {
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+#footer-nav td a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+#copyright-div {
+  display: flex;
+  width: 100%;
+}
+
+#copyright-contents {
+  float: left;
+  width: 90%;
+  text-align: left;
+}
+
+#copyright-contents span a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+#sns-div {
+  float: right;
+  width: 10%;
+}
+
+#sns-icon tr td img {
+  height: 20px;
+  width: 20px;
+}
+
+#sns-icon tr td img:hover {
+  cursor: pointer;
+}

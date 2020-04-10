@@ -1,0 +1,309 @@
+#main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+#header-contents {
+  width: 100%;
+  height: 10%;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#logo-div {
+  float: left;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-div #link-logo a {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#navbar-div {
+  float: left;
+  height: 100%;
+  border-bottom: 2px solid gray;
+}
+
+#navbar {
+  height: 100%;
+  display: flex;
+}
+
+#navbar div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar div #link-nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+#navbar div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #6284d2;
+  color: #6284d2;
+}
+
+#navbar div:active {
+  background-color: #6284d2;
+}
+
+main {
+  position: relative;
+  margin: 0 15%;
+}
+
+#contents-header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a29d9c;
+  opacity: 0.5;
+}
+
+#contents-header span {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+#line-div {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#line {
+  width: 15%;
+  border: 1.5px solid gray;
+}
+
+#contents-service {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+
+#contents-service table {
+  width: 100%;
+  height: 100%;
+}
+
+#contents-servic table tr {
+  width: 100%;
+}
+
+#contents-service table tr td {
+  width: 50%;
+}
+
+#contents-service table tr td #airfreight {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 2em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#contents-service table tr td #seafreight {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 2em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#contents-service table tr td #delivery {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 2em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#contents-service table tr td #warehouse {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 2em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#contents-service table tr td div:hover {
+  cursor: pointer;
+  background-color: #6284d2;
+  animation-name: boundIn;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+#contents-service table tr td div img {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+#contents-service table tr td div a {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#section-div {
+  width: 100%;
+}
+
+#air {
+  width: 100%;
+}
+
+#air #air-header-div span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#air #air-option-header {
+  margin-top: 10px;
+}
+
+#air #air-option-header #option-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 430px;
+  margin-right: 430px;
+  border-radius: 2em;
+  background-color: #6284d2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#air #air-option-header #option-wrapper span {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  margin: 0 20%;
+  margin-top: 30px;
+}
+
+#footer-content {
+  padding: 2px;
+  width: 80%;
+}
+
+#border-contents {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#border-copyright {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer-nav {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#footer-nav tr {
+  width: 60%;
+}
+
+#footer-nav th {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+#footer-nav td {
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+#footer-nav td a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+#copyright-div {
+  display: flex;
+  width: 100%;
+}
+
+#copyright-contents {
+  float: left;
+  width: 90%;
+  text-align: left;
+}
+
+#copyright-contents span a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+#sns-div {
+  float: right;
+  width: 10%;
+}
+
+#sns-icon tr td img {
+  height: 20px;
+  width: 20px;
+}
+
+#sns-icon tr td img:hover {
+  cursor: pointer;
+}
+
+@keyframes bounceIn {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 80px;
+  }
+  100% {
+    top: 0px;
+  }
+}

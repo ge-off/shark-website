@@ -1,0 +1,180 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.img-div {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/img/air-freight-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: block;
+}
+
+.logo {
+  float: left;
+  margin-top: 3%;
+  margin-left: 7%;
+  padding: 1%;
+}
+
+.link-logo {
+  text-decoration: none;
+}
+
+.logo .link-logo a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar {
+  float: right;
+  margin-top: 3%;
+  margin-right: 3%;
+  padding: 1%;
+  overflow: hidden;
+}
+
+.link-nav {
+  text-decoration: none;
+}
+
+.navbar .link-nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.navbar .link-nav a:hover {
+  background-color: #706d6d;
+  border-radius: 2em;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0);
+}
+
+.track-container {
+  background-color: white;
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  height: 300px;
+  width: 500px;
+  border-radius: 0.5em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.track-header {
+  height: 50%;
+  width: 100%;
+}
+
+.track-header img {
+  height: 60px;
+  width: 60px;
+  margin-top: 30px;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.track-header h1 {
+  font-size: bold;
+}
+
+.track-searchbar {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  height: 50px;
+  width: 250px;
+  float: left;
+  border-radius: 3em;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  border: 0.5px solid gray;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-input[type="text"]:focus {
+  border-radius: 3em;
+  border: 2px solid black;
+  outline-width: 0;
+}
+
+.search-input[type="text"]:hover {
+  border-radius: 3em;
+  border: 2px solid black;
+  outline-width: 0;
+}
+
+.search-button {
+  height: 55px;
+  width: 90px;
+  float: left;
+  background-color: #588ac7;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.search-button:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.search-button img {
+  height: 25px;
+  width: 25px;
+}
+
+.footer-div {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.footer-div span {
+  color: white;
+  font-size: 12px;
+}
+
+.sns-container {
+  position: absolute;
+  bottom: 35%;
+  right: 16px;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.sns-container a:hover {
+  cursor: pointer;
+}
+
+.sns-container img {
+  height: 50px;
+  width: 50px;
+}
