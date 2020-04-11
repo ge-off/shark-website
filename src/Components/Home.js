@@ -14,7 +14,7 @@ class Home extends React.Component {
           <div className="navbar-div">
             <nav className="logo">
               <Link to="/" className="link-logo">
-                <a>LOGO HERE</a>
+                <a>LOGO</a>
               </Link>
             </nav>
             <nav className="navbar">

@@ -7,8 +7,9 @@
 .img-div {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/air-freight-2.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/img/air-freight-2.jpg"); */
+  background-image: url("/img/logistics.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -22,7 +23,7 @@
 
 .logo {
   float: left;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 7%;
   padding: 1%;
 }
@@ -38,8 +39,8 @@
 }
 
 .navbar {
-  float: right;
-  margin-top: 3%;
+  float: left;
+  margin-top: 1%;
   margin-right: 3%;
   padding: 1%;
   overflow: hidden;
@@ -59,7 +60,7 @@
 }
 
 .navbar .link-nav a:hover {
-  background-color: #706d6d;
+  background-color: #c0a254;
   border-radius: 2em;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0);
 }
